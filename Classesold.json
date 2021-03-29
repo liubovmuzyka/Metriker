@@ -1,0 +1,255 @@
+{"classes": [
+ {
+  "loc": 453,
+  "name": "Board",
+  "klassen": [
+   {
+    "loc": 39,
+    "name": "Mover",
+    "klassen": [],
+    "methoden": [
+     {
+      "loc": 15,
+      "mccabe": 1,
+      "name": "Mover()"
+     },
+     {
+      "loc": 11,
+      "mccabe": 1,
+      "name": "void updateState(boolean[][] state)"
+     },
+     {
+      "loc": 6,
+      "mccabe": 5,
+      "name": "boolean isValidDest(int x, int y)"
+     }
+    ]
+   },
+   {
+    "loc": 167,
+    "name": "Player",
+    "klassen": [],
+    "methoden": [
+     {
+      "loc": 12,
+      "mccabe": 1,
+      "name": "Player(int x, int y)"
+     },
+     {
+      "loc": 53,
+      "mccabe": 32,
+      "name": "char newDirection()"
+     },
+     {
+      "loc": 6,
+      "mccabe": 5,
+      "name": "boolean isChoiceDest()"
+     },
+     {
+      "loc": 31,
+      "mccabe": 13,
+      "name": "void demoMove()"
+     },
+     {
+      "loc": 45,
+      "mccabe": 21,
+      "name": "void move()"
+     },
+     {
+      "loc": 6,
+      "mccabe": 5,
+      "name": "void updatePellet()"
+     }
+    ]
+   },
+   {
+    "loc": 107,
+    "name": "Ghost",
+    "klassen": [],
+    "methoden": [
+     {
+      "loc": 11,
+      "mccabe": 1,
+      "name": "Ghost(int x, int y)"
+     },
+     {
+      "loc": 11,
+      "mccabe": 5,
+      "name": "void updatePellet()"
+     },
+     {
+      "loc": 6,
+      "mccabe": 5,
+      "name": "boolean isChoiceDest()"
+     },
+     {
+      "loc": 53,
+      "mccabe": 32,
+      "name": "char newDirection()"
+     },
+     {
+      "loc": 17,
+      "mccabe": 5,
+      "name": "void move()"
+     }
+    ]
+   }
+  ],
+  "methoden": [
+   {
+    "loc": 10,
+    "mccabe": 1,
+    "name": "Board()"
+   },
+   {
+    "loc": 11,
+    "mccabe": 1,
+    "name": "void initHighScores()"
+   },
+   {
+    "loc": 12,
+    "mccabe": 1,
+    "name": "void updateScore(int score)"
+   },
+   {
+    "loc": 12,
+    "mccabe": 1,
+    "name": "void clearHighScores()"
+   },
+   {
+    "loc": 28,
+    "mccabe": 1,
+    "name": "void reset()"
+   },
+   {
+    "loc": 12,
+    "mccabe": 1,
+    "name": "void updateMap(int x, int y, int width, int height)"
+   },
+   {
+    "loc": 15,
+    "mccabe": 1,
+    "name": "void drawLives(Graphics g)"
+   },
+   {
+    "loc": 94,
+    "mccabe": 1,
+    "name": "void drawBoard(Graphics g)"
+   },
+   {
+    "loc": 12,
+    "mccabe": 5,
+    "name": "void drawPellets(Graphics g)"
+   },
+   {
+    "loc": 4,
+    "mccabe": 1,
+    "name": "void fillPellet(int x, int y, Graphics g)"
+   },
+   {
+    "loc": 200,
+    "mccabe": 181,
+    "name": "void paint(Graphics g)"
+   }
+  ]
+ },
+ {
+  "loc": 49,
+  "name": "GameSounds",
+  "klassen": [],
+  "methoden": [
+   {
+    "loc": 21,
+    "mccabe": 1,
+    "name": "GameSounds()"
+   },
+   {
+    "loc": 7,
+    "mccabe": 5,
+    "name": "void nomNom()"
+   },
+   {
+    "loc": 5,
+    "mccabe": 1,
+    "name": "void nomNomStop()"
+   },
+   {
+    "loc": 5,
+    "mccabe": 1,
+    "name": "void newGame()"
+   },
+   {
+    "loc": 5,
+    "mccabe": 1,
+    "name": "void death()"
+   }
+  ]
+ },
+ {
+  "loc": 181,
+  "name": "Pacman",
+  "klassen": [],
+  "methoden": [
+   {
+    "loc": 20,
+    "mccabe": 1,
+    "name": "Pacman()"
+   },
+   {
+    "loc": 13,
+    "mccabe": 5,
+    "name": "void repaint()"
+   },
+   {
+    "loc": 80,
+    "mccabe": 52,
+    "name": "void stepFrame(boolean New)"
+   },
+   {
+    "loc": 29,
+    "mccabe": 37,
+    "name": "void keyPressed(KeyEvent e)"
+   },
+   {
+    "loc": 18,
+    "mccabe": 21,
+    "name": "void mousePressed(MouseEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void mouseEntered(MouseEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void mouseExited(MouseEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void mouseReleased(MouseEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void mouseClicked(MouseEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void keyReleased(KeyEvent e)"
+   },
+   {
+    "loc": 2,
+    "mccabe": 1,
+    "name": "void keyTyped(KeyEvent e)"
+   },
+   {
+    "loc": 3,
+    "mccabe": 1,
+    "name": "static void main(String[] args)"
+   }
+  ]
+ }
+]}
